@@ -1,0 +1,66 @@
+{
+  "common": {
+    "back": "Volver",
+    "cancel": "Cancelar",
+    "clear": "Limpiar",
+    "close": "Cerrar",
+    "create": "Crear",
+    "delete": "Eliminar",
+    "download": "Descargar",
+    "edit": "Editar",
+    "loading": "Cargando...",
+    "name": "Nombre",
+    "open": "Abrir",
+    "save": "Guardar",
+    "type": "Tipo",
+    "of": "de"
+  },
+  "status": {
+    "completed": "Completado"
+  },
+  "footer": {
+    "copyright": "© 2026 Graphics. Todos los derechos reservados."
+  },
+  "navigation": {
+    "brand": "Graphics",
+    "analysis": "Análisis",
+    "settings": "Configuración",
+    "logout": "Cerrar sesión",
+    "profile": "Perfil",
+    "profileMenu": "Menú de perfil",
+    "theme": {
+      "switchToLight": "Cambiar a modo claro",
+      "switchToDark": "Cambiar a modo oscuro"
+    }
+  },
+  "home": {
+    "hero": {
+      "badge": "Dashboard",
+      "titlePrefix": "Bienvenido a",
+      "titleAccent": "Graphics",
+      "description": "Gestiona tus análisis, datasets, gráficas, reportes y notebooks desde un único panel.",
+      "primaryButton": "Crear análisis"
+    },
+    "stats": {
+      "totalProjects": {
+        "label": "Análisis totales"
+      },
+      "recentProjects": {
+        "label": "Análisis recientes"
+      },
+      "latestAnalysis": {
+        "label": "Último análisis",
+        "empty": "Sin análisis"
+      }
+    },
+    "recentSection": {
+      "title": "Análisis recientes",
+      "noDate": "Sin fecha",
+      "noDescription": "Sin descripción"
+    },
+    "empty": {
+      "title": "Todavía no hay análisis",
+      "description": "Crea tu primer análisis para empezar a generar resultados."
+    }
+  }
+}

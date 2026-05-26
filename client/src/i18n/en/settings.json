@@ -1,0 +1,43 @@
+{
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Manage your profile, password and account.",
+    "profile": {
+      "title": "Profile",
+      "subtitle": "Update your username and email.",
+      "usernameLabel": "Username",
+      "emailLabel": "Email",
+      "submit": "Save profile",
+      "saving": "Saving...",
+      "updateSuccess": "Profile updated successfully."
+    },
+    "password": {
+      "title": "Password",
+      "subtitle": "Change your access password.",
+      "currentLabel": "Current password",
+      "newLabel": "New password",
+      "submit": "Change password",
+      "saving": "Saving...",
+      "updateSuccess": "Password updated successfully."
+    },
+    "account": {
+      "title": "DELETE ACCOUNT",
+      "subtitle": "Deleting your account will remove all your analyses and associated files.",
+      "deleteButton": "Delete account",
+      "deleteSuccess": "Account deleted successfully.",
+      "whatWillBeDeletedTitle": "Will be permanently deleted:",
+      "whatWillBeDeletedUser": "Your username and profile data.",
+      "whatWillBeDeletedRuns": "Your analyses and executions.",
+      "whatWillBeDeletedFiles": "Your datasets, metrics and generated files.",
+      "whatWillBeDeletedResults": "Your charts, reports and notebooks.",
+      "modal": {
+        "title": "Delete account",
+        "description": "This action cannot be undone. All data associated with your account will be permanently deleted.",
+        "warningTitle": "Deletion confirmation",
+        "cancel": "Cancel",
+        "confirm": "Yes, delete account",
+        "deleting": "Deleting..."
+      }
+    }
+  }
+}

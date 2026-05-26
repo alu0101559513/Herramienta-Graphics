@@ -1,0 +1,43 @@
+{
+  "settings": {
+    "title": "Configuración",
+    "subtitle": "Gestiona tu perfil, contraseña y cuenta.",
+    "profile": {
+      "title": "Perfil",
+      "subtitle": "Actualiza tu nombre de usuario y correo electrónico.",
+      "usernameLabel": "Usuario",
+      "emailLabel": "Email",
+      "submit": "Guardar perfil",
+      "saving": "Guardando...",
+      "updateSuccess": "Perfil actualizado correctamente."
+    },
+    "password": {
+      "title": "Contraseña",
+      "subtitle": "Cambia tu contraseña de acceso.",
+      "currentLabel": "Contraseña actual",
+      "newLabel": "Nueva contraseña",
+      "submit": "Cambiar contraseña",
+      "saving": "Guardando...",
+      "updateSuccess": "Contraseña actualizada correctamente."
+    },
+    "account": {
+      "title": "ELIMINAR CUENTA",
+      "subtitle": "Eliminar tu cuenta borrará todos tus análisis y ficheros asociados.",
+      "deleteButton": "Eliminar cuenta",
+      "deleteSuccess": "Cuenta eliminada correctamente.",
+      "whatWillBeDeletedTitle": "Se eliminará permanentemente:",
+      "whatWillBeDeletedUser": "Tu usuario y datos de perfil.",
+      "whatWillBeDeletedRuns": "Tus análisis y ejecuciones.",
+      "whatWillBeDeletedFiles": "Tus datasets, métricas y ficheros generados.",
+      "whatWillBeDeletedResults": "Tus gráficas, reportes y notebooks.",
+      "modal": {
+        "title": "Eliminar cuenta",
+        "description": "Esta acción no se puede deshacer. Todos los datos asociados a tu cuenta se eliminarán permanentemente.",
+        "warningTitle": "Confirmación de eliminación",
+        "cancel": "Cancelar",
+        "confirm": "Sí, eliminar cuenta",
+        "deleting": "Eliminando..."
+      }
+    }
+  }
+}

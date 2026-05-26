@@ -1,0 +1,320 @@
+{
+  "analysis": {
+    "title": "Analysis",
+    "loading": "Loading...",
+    "status": {
+      "withoutDataset": "No dataset",
+      "created": "Created",
+      "datasetUploaded": "Dataset uploaded",
+      "completed": "Completed",
+      "running": "Running",
+      "error": "Error"
+    },
+    "messages": {
+      "analysisCreated": "Analysis created successfully.",
+      "analysisUpdated": "Analysis updated successfully.",
+      "analysisDeleted": "Analysis deleted successfully.",
+      "datasetUploaded": "Dataset uploaded successfully.",
+      "analysisExecuted": "Analysis executed successfully."
+    },
+    "backend": {
+      "analysisNotFound": "Analysis not found.",
+      "onlyCsvAllowed": "Only CSV files are allowed.",
+      "onlyMetricsCsvAllowed": "Only CSV files are allowed for metrics.",
+      "invalidCsvEncoding": "Invalid CSV encoding.",
+      "invalidCsvFormat": "Invalid CSV format.",
+      "datasetNotUploaded": "Dataset not uploaded.",
+      "invalidModules": "Invalid modules.",
+      "emptyModules": "You must select at least one module.",
+      "invalidMetricsDirectionFormat": "Invalid metrics direction format.",
+      "invalidMetricsDirectionObject": "Metrics direction must be a JSON object.",
+      "unsupportedSelectedModules": "The dataset does not support the selected modules.",
+      "missingAlgorithmColumn": "Missing Algorithm column.",
+      "missingInstanceColumn": "Missing Instance column.",
+      "missingMetricNameColumn": "Missing MetricName column.",
+      "missingExecutionIdColumn": "Missing ExecutionId column.",
+      "missingMetricValueColumn": "Missing MetricValue column.",
+      "noEvolutionDataset": "The analysis has no evolution-compatible dataset.",
+      "noEvolutionPlotsGenerated": "No evolution charts were generated.",
+      "summaryCannotRunAlone": "The summary cannot be generated alone.",
+      "summaryNeedsPreviousOutputs": "The summary needs previous outputs.",
+      "unknownError": "An unknown error occurred."
+    },
+    "modules": {
+      "saes_plots": "SAES charts",
+      "saes_reports": "SAES reports",
+      "saes_notebooks": "SAES notebook",
+      "evolution_plots": "Evolution charts",
+      "notebook": "Jupyter notebook"
+    },
+    "metricsDirection": {
+      "title": "Metrics direction",
+      "csvWillBeUsed": "The CSV file will be used to determine the direction of the metrics."
+    },
+    "dashboard": {
+      "subtitle": "Manage your analyses, datasets, charts, reports, and notebooks from a single dashboard.",
+      "newAnalysis": "New analysis",
+      "editNameTitle": "Edit name",
+      "deleteConfirm": "Are you sure you want to delete this analysis?",
+      "stats": {
+        "total": "Total",
+        "completed": "Completed",
+        "withDataset": "With dataset",
+        "created": "Created"
+      },
+      "filters": {
+        "title": "Filters",
+        "searchSort": "Search and sort",
+        "search": "Search",
+        "status": "Status",
+        "sortBy": "Sort by",
+        "allStatuses": "All statuses",
+        "runningPending": "Running or pending",
+        "errors": "Errors",
+        "recentFirst": "Newest first",
+        "oldestFirst": "Oldest first",
+        "nameAZ": "Name A-Z",
+        "nameZA": "Name Z-A"
+      },
+      "placeholders": {
+        "nameOrDescription": "Name or description",
+        "analysisName": "Analysis name",
+        "description": "Description"
+      },
+      "table": {
+        "title": "Analysis",
+        "name": "Name",
+        "date": "Date",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "empty": {
+        "noAnalyses": "There are no analyses yet.",
+        "noResults": "No results match the current filters."
+      },
+      "creation": {
+        "ready": "Ready to create the analysis.",
+        "creating": "Creating analysis...",
+        "uploadingDataset": "Uploading dataset...",
+        "running": "Running analysis...",
+        "finished": "Analysis completed.",
+        "error": "Error during creation."
+      },
+      "modal": {
+        "createTitle": "Create analysis",
+        "createSubtitle": "Provide the basic information to create a new analysis.",
+        "baseData": "Basic data",
+        "unsupportedDataset": "The uploaded dataset is not compatible with the selected modules.",
+        "uploadDatasetTitle": "Upload dataset",
+        "uploadMetricsTitle": "Upload metrics",
+        "validCsvFormat": {
+          "title": "Valid CSV format",
+          "saes": "For SAES analysis, use columns:",
+          "evolution": "For evolution, use:",
+          "evolutionAxis": "and an X-axis column such as"
+        },
+        "validMetricsFormat": {
+          "title": "Valid CSV metrics format",
+          "description": "The optional metrics file must include the following columns:",
+          "values": "The Maximize column accepts the following values:"
+        },
+        "evolutionCurves": {
+          "title": "Evolution curve options",
+          "chartTitle": "Chart title",
+          "xAxisColumns": "X-axis columns",
+          "xAxisColumnsHint": "If you select multiple columns, one curve will be generated for each X-axis.",
+          "yLabel": "Y-axis label",
+          "showGrid": "Show grid",
+          "showGridDescription": "Enabled by default.",
+          "showMinMax": "Show min/max",
+          "showMinMaxDescription": "Band between minimum and maximum.",
+          "showStd": "Show standard deviation",
+          "showStdDescription": "Shading ± standard deviation.",
+          "groupByInstance": "Group by instance",
+          "groupByInstanceDescription": "Generate curves per Instance.",
+          "groupByMetric": "Group by metric",
+          "groupByMetricDescription": "Generate one chart per MetricName."
+        },
+        "evolution": {
+          "titleLabel": "Title",
+          "titlePlaceholder": "Convergence curve - {metric} - {instance}",
+          "xColumns": "Columns for X axis",
+          "xAxisLabels": "X-axis name per column",
+          "yAxisLabels": "Y-axis name per metric",
+          "options": {
+            "grid": "Grid",
+            "average": "Average",
+            "median": "Median",
+            "minMax": "Min / Max",
+            "std": "Standard deviation",
+            "groupByInstance": "Group by instance",
+            "groupByMetric": "Group by metric"
+          }
+        },
+        "exportFormat": "Export format",
+        "analysisId": "Analysis ID",
+        "availableModules": "Available modules",
+        "createAndRun": "Create and run",
+        "running": "Running analysis..."
+      },
+      "detection": {
+        "title": "Module availability",
+        "unavailable": "Not available for this dataset",
+        "available": "Available for this dataset"
+      }
+    },
+    "detail": {
+      "fallbackName": "Analysis",
+      "showMore": "Show more",
+      "showLess": "Show less",
+      "stats": {
+        "runs": "Runs",
+        "plots": "Charts",
+        "reports": "Reports",
+        "notebooks": "Notebooks",
+        "metrics": "Metrics",
+        "instances": "Instances"
+      },
+      "parameters": {
+        "metricsTitle": "Metrics",
+        "instancesTitle": "Instances",
+        "noMetrics": "No metrics detected.",
+        "noInstances": "No instances detected."
+      },
+      "modules": {
+        "saes_notebooks": "SAES notebook"
+      },
+      "moduleDescriptions": {
+        "saes_plots": "Generate boxplots, violin plots, histograms, and critical distance charts with SAES.",
+        "saes_reports": "Generate SAES statistical tables.",
+        "saes_notebooks": "Generate a reproducible Jupyter notebook.",
+        "notebooks": "Generate a reproducible Jupyter notebook.",
+        "allPlots": "Generate SAES charts and evolution charts available for this dataset.",
+        "evolution_plots": "Generate evolution charts."
+      },
+      "results": {
+        "notEvolutionPlots": "No evolution charts have been generated yet.",
+        "notAvailableForDataset": "The selected modules are not available for the uploaded dataset.",
+        "evolutionPlotsAvailable": "Evolution plots are available for the uploaded dataset.",
+        "notAvailableWithoutSaes": "Not available for this dataset",
+        "viewEvolution": "View evolution plots",
+        "plotsPreviewable": "{{previewable}} of {{total}} charts can be previewed.",
+        "plotsAvailable": "{{total}} chart(s) available.",
+        "noPlots": "No charts have been generated yet.",
+        "reportsWithImages": "{{images}} of {{total}} reports have a preview.",
+        "reportsFallback": "Reports are available in LaTeX or JSON.",
+        "noReports": "No reports have been generated yet.",
+        "notebooksDescription": "Jupyter notebook available for download.",
+        "noNotebooks": "No notebook has been generated yet.",
+        "pendingTitle": "Pending outputs",
+        "createPlots": "Create charts"
+      },
+      "files": {
+        "title": "Generated files",
+        "renderedReports": "Rendered reports",
+        "latexReports": "LaTeX reports",
+        "jupyterNotebooks": "Jupyter notebooks"
+      }
+    },
+    "results": {
+      "downloadAll": "Download all",
+      "categories": {
+        "plots": "View charts",
+        "reports": "View reports"
+      }
+    },
+    "preview": {
+      "closeModal": "Close modal",
+      "noInlinePreviewTitle": "This file cannot be previewed here."
+    },
+    "plots": {
+      "title": "Charts",
+      "loadingPreview": "Loading preview...",
+      "subtitle": "Explore and filter the generated charts.",
+      "stats": {
+        "total": "Total",
+        "filtered": "Filtered",
+        "visible": "Visible",
+        "formats": "Formats"
+      },
+      "plotType": {
+        "evolution": "Evolution",
+        "boxplot": "Boxplot",
+        "violin": "Violin",
+        "histogram": "Histogram",
+        "criticalDistance": "Critical distance",
+        "unknown": "Unknown"
+      },
+      "type": "Type",
+      "columnCount": "Column Count",
+      "downloadEvolutionZip": "Download all",
+      "noInlinePreview": "This chart cannot be previewed here.",
+      "generatingSelection": "Generating selection...",
+      "warningsTitle": "Generation warnings",
+      "warningsDescription": "Some charts could not be generated.",
+      "filters": "Filters",
+      "gridSettings": "Grid settings",
+      "apply": "Apply",
+      "applyFilters": "Apply filters",
+      "pendingChanges": "Pending changes",
+      "filterHelper": "Select algorithms or chart types and apply to generate or load the results.",
+      "mustSelectAlgorithm": "You must select at least one algorithm.",
+      "algorithm": "Algorithm",
+      "format": "Format",
+      "metric": "Metric",
+      "instance": "Instance",
+      "noAlgorithms": "No algorithms available.",
+      "noFormats": "No formats available.",
+      "noMetrics": "No metrics available.",
+      "noInstances": "No instances available.",
+      "settings": "Display settings",
+      "reset": "Reset",
+      "columns": "Columns",
+      "rows": "Rows",
+      "max": "Max",
+      "imageSize": "Image size",
+      "densityLow": "Small",
+      "densityMedium": "Medium",
+      "densityHigh": "Large",
+      "fitContain": "Contain",
+      "fitCover": "Cover",
+      "metadata": "Metadata",
+      "hidden": "Hidden",
+      "visible": "Visible",
+      "searchPlaceholder": "Search chart",
+      "loadingTitle": "Generating charts",
+      "loadingDescription": "The charts for the current selection are being prepared.",
+      "noResults": "There are no charts to display.",
+      "pdfAvailable": "PDF available to open or download.",
+      "viewImage": "View image",
+      "viewFile": "View file",
+      "openFile": "Open file",
+      "close": "Close",
+      "closeModal": "Close preview"
+    },
+    "reports": {
+      "title": "Reports",
+      "subtitle": "Explore the generated statistical reports.",
+      "view": "View report",
+      "compare": "Compare",
+      "compareEnable": "Enable comparison",
+      "compareDisable": "Disable comparison",
+      "metric": "Metric",
+      "selectReport": "Select a report.",
+      "statisticalReport": "Statistical report",
+      "downloadMainView": "Download main view",
+      "downloadTex": "Download TEX",
+      "loadingContent": "Loading content...",
+      "noStructuredPreview": "There is no structured preview for this report.",
+      "showLatexSource": "Show LaTeX source",
+      "stats": {
+        "total": "Total",
+        "tables": "Tables",
+        "latex": "LaTeX"
+      },
+      "searchPlaceholder": "Search report",
+      "availableTitle": "Available reports",
+      "noResults": "There are no reports to display."
+    }
+  }
+}

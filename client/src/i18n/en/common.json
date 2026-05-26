@@ -1,0 +1,66 @@
+{
+  "common": {
+    "back": "Back",
+    "cancel": "Cancel",
+    "clear": "Clear",
+    "close": "Close",
+    "create": "Create",
+    "delete": "Delete",
+    "download": "Download",
+    "edit": "Edit",
+    "loading": "Loading...",
+    "name": "Name",
+    "open": "Open",
+    "save": "Save",
+    "type": "Type",
+    "of": "of"
+  },
+  "status": {
+    "completed": "Completed"
+  },
+  "footer": {
+    "copyright": "© 2026 Graphics. All rights reserved."
+  },
+  "navigation": {
+    "brand": "Graphics",
+    "analysis": "Analysis",
+    "settings": "Settings",
+    "logout": "Log out",
+    "profile": "Profile",
+    "profileMenu": "Profile menu",
+    "theme": {
+      "switchToLight": "Switch to light mode",
+      "switchToDark": "Switch to dark mode"
+    }
+  },
+  "home": {
+    "hero": {
+      "badge": "Dashboard",
+      "titlePrefix": "Welcome to",
+      "titleAccent": "Graphics",
+      "description": "Manage your analyses, datasets, charts, reports, and notebooks from a single dashboard.",
+      "primaryButton": "Create analysis"
+    },
+    "stats": {
+      "totalProjects": {
+        "label": "Total analyses"
+      },
+      "recentProjects": {
+        "label": "Recent analyses"
+      },
+      "latestAnalysis": {
+        "label": "Latest analysis",
+        "empty": "No analyses"
+      }
+    },
+    "recentSection": {
+      "title": "Recent analyses",
+      "noDate": "No date",
+      "noDescription": "No description"
+    },
+    "empty": {
+      "title": "No analyses yet",
+      "description": "Create your first analysis to start generating results."
+    }
+  }
+}

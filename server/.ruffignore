@@ -1,0 +1,17 @@
+# Directories
+__pycache__
+.pytest_cache
+.ruff_cache
+venv
+env
+
+# Build outputs
+dist
+build
+*.egg-info
+
+# IDE
+.vscode
+.idea
+*.pyc
+.DS_Store

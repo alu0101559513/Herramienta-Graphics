@@ -1,0 +1,44 @@
+html,
+body,
+#root {
+  min-height: 100%;
+  background: var(--app-bg);
+}
+
+html {
+  background: var(--app-bg);
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at top right, var(--brand-soft), transparent 28%),
+    linear-gradient(
+      180deg,
+      var(--app-bg-soft) 0%,
+      var(--app-bg) 26%,
+      var(--app-bg-strong) 100%
+    );
+  color: var(--text-primary);
+  font-family: 'Inter', sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease, background 0.3s ease;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.theme-transition {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease,
+    box-shadow 0.3s ease, transform 0.2s ease;
+}

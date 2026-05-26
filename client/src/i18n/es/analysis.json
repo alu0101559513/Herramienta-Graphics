@@ -1,0 +1,323 @@
+{
+  "analysis": {
+    "title": "Análisis",
+    "loading": "Cargando...",
+    "status": {
+      "withoutDataset": "Sin dataset",
+      "created": "Creado",
+      "datasetUploaded": "Dataset subido",
+      "completed": "Completado",
+      "running": "En ejecución",
+      "error": "Error"
+    },
+    "messages": {
+      "analysisCreated": "Análisis creado correctamente.",
+      "analysisUpdated": "Análisis actualizado correctamente.",
+      "analysisDeleted": "Análisis eliminado correctamente.",
+      "datasetUploaded": "Dataset subido correctamente.",
+      "analysisExecuted": "Análisis ejecutado correctamente."
+    },
+    "backend": {
+      "analysisNotFound": "Análisis no encontrado.",
+      "onlyCsvAllowed": "Solo se permiten ficheros CSV.",
+      "onlyMetricsCsvAllowed": "Solo se permiten ficheros CSV para las métricas.",
+      "invalidCsvEncoding": "Codificación CSV no válida.",
+      "invalidCsvFormat": "Formato CSV no válido.",
+      "datasetNotUploaded": "Dataset no subido.",
+      "invalidModules": "Módulos no válidos.",
+      "emptyModules": "Debes seleccionar al menos un módulo.",
+      "invalidMetricsDirectionFormat": "Formato de dirección de métricas no válido.",
+      "invalidMetricsDirectionObject": "La dirección de métricas debe ser un objeto JSON.",
+      "unsupportedSelectedModules": "El dataset no soporta los módulos seleccionados.",
+      "missingAlgorithmColumn": "Falta la columna Algorithm.",
+      "missingInstanceColumn": "Falta la columna Instance.",
+      "missingMetricNameColumn": "Falta la columna MetricName.",
+      "missingExecutionIdColumn": "Falta la columna ExecutionId.",
+      "missingMetricValueColumn": "Falta la columna MetricValue.",
+      "noEvolutionDataset": "El análisis no tiene un dataset compatible con evolución.",
+      "noEvolutionPlotsGenerated": "No se generaron gráficas de evolución.",
+      "summaryCannotRunAlone": "El resumen no puede generarse solo.",
+      "summaryNeedsPreviousOutputs": "El resumen necesita resultados previos.",
+      "unknownError": "Ha ocurrido un error desconocido."
+    },
+    "modules": {
+      "saes_plots": "Gráficas SAES",
+      "saes_reports": "Reportes SAES",
+      "saes_notebooks": "Notebook SAES",
+      "notebooks": "Notebook SAES",
+      "evolution_plots": "Gráficas de evolución"
+    },
+    "metricsDirection": {
+      "title": "Dirección de métricas",
+      "csvWillBeUsed": "Se usará el CSV proporcionado para determinar la dirección de las métricas."
+    },
+    "dashboard": {
+      "subtitle": "Gestiona tus análisis, datasets, gráficas, reportes y notebooks desde un único panel.",
+      "newAnalysis": "Nuevo análisis",
+      "editNameTitle": "Editar nombre",
+      "deleteConfirm": "¿Seguro que quieres eliminar este análisis?",
+      "stats": {
+        "total": "Total",
+        "completed": "Completados",
+        "withDataset": "Con dataset",
+        "created": "Creados"
+      },
+      "filters": {
+        "title": "Filtros",
+        "searchSort": "Buscar y ordenar",
+        "search": "Buscar",
+        "status": "Estado",
+        "sortBy": "Ordenar por",
+        "allStatuses": "Todos los estados",
+        "runningPending": "En ejecución o pendiente",
+        "errors": "Errores",
+        "recentFirst": "Más recientes primero",
+        "oldestFirst": "Más antiguos primero",
+        "nameAZ": "Nombre A-Z",
+        "nameZA": "Nombre Z-A"
+      },
+      "placeholders": {
+        "nameOrDescription": "Nombre o descripción",
+        "analysisName": "Nombre del análisis",
+        "description": "Descripción"
+      },
+      "table": {
+        "name": "Nombre",
+        "date": "Fecha",
+        "status": "Estado",
+        "actions": "Acciones",
+        "title": "Análisis"
+      },
+      "empty": {
+        "noAnalyses": "No hay análisis todavía.",
+        "noResults": "No hay resultados con los filtros actuales."
+      },
+      "creation": {
+        "ready": "Listo para crear el análisis.",
+        "creating": "Creando análisis...",
+        "uploadingDataset": "Subiendo dataset...",
+        "running": "Ejecutando análisis...",
+        "finished": "Análisis completado.",
+        "error": "Error durante la creación."
+      },
+      "modal": {
+        "createTitle": "Crear análisis",
+        "createSubtitle": "Proporciona la información básica para crear un nuevo análisis.",
+        "baseData": "Datos básicos",
+        "uploadDatasetTitle": "Subir dataset",
+        "uploadMetricsTitle": "Subir métricas",
+        "unsupportedDataset": "El dataset subido no es compatible con los módulos seleccionados.",
+        "validCsvFormat": {
+          "title": "Formato CSV válido",
+          "saes": "Para análisis SAES usa columnas:",
+          "evolution": "Para evolución usa:",
+          "evolutionAxis": "y una columna de eje X como"
+        },
+        "validMetricsFormat": {
+          "title": "Formato CSV de métricas",
+          "description": "El fichero opcional de métricas debe incluir las columnas:",
+          "values": "La columna Maximize acepta los valores:"
+        },
+        "evolutionCurves": {
+          "title": "Opciones de gráficas de evolución",
+          "chartTitle": "Título de la gráfica",
+          "xAxisColumns": "Columnas para el eje X",
+          "xAxisColumnsHint": "Si seleccionas varias columnas, se generará una gráfica por cada eje X.",
+          "yLabel": "Etiqueta eje Y",
+          "showGrid": "Mostrar grid",
+          "showGridDescription": "Por defecto activado.",
+          "showMinMax": "Mostrar min/max",
+          "showMinMaxDescription": "Banda entre mínimo y máximo.",
+          "showStd": "Mostrar desviación estándar",
+          "showStdDescription": "Sombreado ± desviación estándar.",
+          "groupByInstance": "Agrupar por instancia",
+          "groupByInstanceDescription": "Genera una gráfica por Instance.",
+          "groupByMetric": "Agrupar por métrica",
+          "groupByMetricDescription": "Genera una gráfica por MetricName."
+        },
+        "evolution": {
+          "titleLabel": "Título",
+          "titlePlaceholder": "Curva de convergencia - {metric} - {instance}",
+          "xColumns": "Columnas para eje X",
+          "xAxisLabels": "Nombre del eje X por columna",
+          "yAxisLabels": "Nombre del eje Y por métrica",
+          "options": {
+            "grid": "Grid",
+            "average": "Media",
+            "median": "Mediana",
+            "minMax": "Min / Max",
+            "std": "Desviación estándar",
+            "groupByInstance": "Agrupar por instancia",
+            "groupByMetric": "Agrupar por métrica"
+          }
+        },
+        "exportFormat": "Formato de exportación",
+        "analysisId": "ID del análisis",
+        "availableModules": "Módulos disponibles",
+        "createAndRun": "Crear y ejecutar",
+        "running": "Ejecutando análisis..."
+      },
+      "detection": {
+        "title": "Disponibilidad de módulos",
+        "unavailable": "No disponible para este dataset",
+        "available": "Disponible para este dataset"
+      }
+    },
+
+    "detail": {
+      "fallbackName": "Análisis",
+      "showMore": "Ver más",
+      "showLess": "Ver menos",
+      "stats": {
+        "runs": "Ejecuciones",
+        "plots": "Gráficas",
+        "reports": "Reportes",
+        "notebooks": "Notebooks",
+        "metrics": "Métricas",
+        "instances": "Instancias"
+      },
+      "parameters": {
+        "metricsTitle": "Métricas",
+        "instancesTitle": "Instancias",
+        "noMetrics": "No hay métricas detectadas.",
+        "noInstances": "No hay instancias detectadas."
+      },
+      "modules": {
+        "saes_plots": "Gráficas SAES",
+        "saes_reports": "Reportes SAES",
+        "evolution_plots": "Gráficas de evolución",
+        "saes_notebooks": "Notebook SAES",
+        "notebook": "Notebook Jupyter"
+      },
+      "moduleDescriptions": {
+        "saes_plots": "Genera boxplot, violin, histogramas y distancia crítica con SAES.",
+        "saes_reports": "Genera tablas estadísticas SAES.",
+        "notebooks": "Genera un notebook Jupyter reproducible.",
+        "saes_notebooks": "Genera un notebook Jupyter reproducible.",
+        "evolution_plots": "Genera gráficas de evolución.",
+        "allPlots": "Genera las gráficas SAES y las gráficas de evolución disponibles para este dataset."
+      },
+      "results": {
+        "noEvolutionPlots": "Todavía no se han generado gráficas de evolución.",
+        "notAvailableForDataset": "Los módulos seleccionados no están disponibles para el dataset subido.",
+        "evolutionPlotsAvailable": "Las gráficas de evolución están disponibles para el dataset subido.",
+        "notAvailableWithoutSaes": "No disponible para este dataset",
+        "viewEvolution": "Ver gráficas de evolución",
+        "plotsPreviewable": "{{previewable}} de {{total}} gráficas se pueden previsualizar.",
+        "plotsAvailable": "Hay {{total}} gráfica(s) disponibles.",
+        "noPlots": "Todavía no se han generado gráficas.",
+        "reportsWithImages": "{{images}} de {{total}} reportes tienen previsualización.",
+        "reportsFallback": "Hay reportes disponibles en LaTeX o JSON.",
+        "noReports": "Todavía no se han generado reportes.",
+        "notebooksDescription": "Notebook Jupyter disponible para descargar.",
+        "noNotebooks": "Todavía no se ha generado notebook.",
+        "pendingTitle": "Resultados pendientes",
+        "createPlots": "Crear gráficas"
+      },
+      "files": {
+        "title": "Ficheros generados",
+        "renderedReports": "Reportes renderizados",
+        "latexReports": "Reportes LaTeX",
+        "jupyterNotebooks": "Notebooks Jupyter"
+      }
+    },
+    "results": {
+      "downloadAll": "Descargar todo",
+      "categories": {
+        "plots": "Ver gráficas",
+        "reports": "Ver reportes"
+      }
+    },
+    "preview": {
+      "closeModal": "Cerrar modal",
+      "noInlinePreviewTitle": "Este fichero no se puede previsualizar aquí."
+    },
+    "plots": {
+      "title": "Gráficas",
+      "loadingPreview": "Cargando previsualización...",
+      "subtitle": "Explora y filtra las gráficas generadas.",
+      "stats": {
+        "total": "Total",
+        "filtered": "Filtradas",
+        "visible": "Visibles",
+        "formats": "Formatos"
+      },
+      "plotType": {
+        "evolution": "Evolución",
+        "boxplot": "Boxplot",
+        "violin": "Violin",
+        "histogram": "Histograma",
+        "criticalDistance": "Distancia crítica",
+        "unknown": "Desconocido"
+      },
+      "type": "Tipo",
+      "columnCount": "Columnas",
+      "downloadEvolutionZip": "Descargar todo",
+      "noInlinePreview": "Esta gráfica no se puede previsualizar aquí.",
+      "generatingSelection": "Generando selección...",
+      "warningsTitle": "Avisos de generación",
+      "warningsDescription": "Algunas gráficas no pudieron generarse.",
+      "filters": "Filtros",
+      "gridSettings": "Configuración de cuadrícula",
+      "apply": "Aplicar",
+      "applyFilters": "Aplicar filtros",
+      "pendingChanges": "Cambios pendientes",
+      "filterHelper": "Selecciona algoritmos o tipos y aplica para generar o cargar los resultados.",
+      "mustSelectAlgorithm": "Debes seleccionar al menos un algoritmo.",
+      "algorithm": "Algoritmo",
+      "format": "Formato",
+      "metric": "Métrica",
+      "instance": "Instancia",
+      "noAlgorithms": "No hay algoritmos disponibles.",
+      "noFormats": "No hay formatos disponibles.",
+      "noMetrics": "No hay métricas disponibles.",
+      "noInstances": "No hay instancias disponibles.",
+      "settings": "Ajustes de visualización",
+      "reset": "Restablecer",
+      "columns": "Columnas",
+      "rows": "Filas",
+      "max": "Máx",
+      "imageSize": "Tamaño de imagen",
+      "densityLow": "Pequeña",
+      "densityMedium": "Media",
+      "densityHigh": "Grande",
+      "fitContain": "Contener",
+      "fitCover": "Cubrir",
+      "metadata": "Metadatos",
+      "hidden": "Oculto",
+      "visible": "Visible",
+      "searchPlaceholder": "Buscar gráfica",
+      "loadingTitle": "Generando gráficas",
+      "loadingDescription": "Se están preparando las gráficas para la selección actual.",
+      "noResults": "No hay gráficas para mostrar.",
+      "pdfAvailable": "PDF disponible para abrir o descargar.",
+      "viewImage": "Ver imagen",
+      "viewFile": "Ver fichero",
+      "openFile": "Abrir fichero",
+      "close": "Cerrar",
+      "closeModal": "Cerrar previsualización"
+    },
+    "reports": {
+      "title": "Reportes",
+      "subtitle": "Explora los reportes estadísticos generados.",
+      "view": "Ver reporte",
+      "compare": "Comparar",
+      "compareEnable": "Activar comparación",
+      "compareDisable": "Desactivar comparación",
+      "metric": "Métrica",
+      "selectReport": "Selecciona un reporte.",
+      "statisticalReport": "Reporte estadístico",
+      "downloadMainView": "Descargar vista principal",
+      "downloadTex": "Descargar TEX",
+      "loadingContent": "Cargando contenido...",
+      "noStructuredPreview": "No hay previsualización estructurada para este reporte.",
+      "showLatexSource": "Mostrar fuente LaTeX",
+      "stats": {
+        "total": "Total"
+      },
+      "searchPlaceholder": "Buscar reporte",
+      "availableTitle": "Reportes disponibles",
+      "noResults": "No hay reportes para mostrar."
+    }
+  }
+}
