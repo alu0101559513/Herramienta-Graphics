@@ -1,7 +1,5 @@
 # GRAPHICS
-[![CI Tests](https://github.com/alu0101559513/Herramienta-Graphics/actions/workflows/build.yml/badge.svg)](https://github.com/alu0101559513/Herramienta-Graphics/actions/workflows/build.yml)
-
-[![Deploy docs](https://github.com/alu0101559513/Herramienta-Graphics/actions/workflows/doc.yml/badge.svg)](https://github.com/alu0101559513/Herramienta-Graphics/actions/workflows/doc.yml)
+[![CI Tests](https://github.com/alu0101559513/Herramienta-Graphics/actions/workflows/build.yml/badge.svg)](https://github.com/alu0101559513/Herramienta-Graphics/actions/workflows/build.yml) [![Deploy docs](https://github.com/alu0101559513/Herramienta-Graphics/actions/workflows/doc.yml/badge.svg)](https://github.com/alu0101559513/Herramienta-Graphics/actions/workflows/doc.yml)
 
 
 Plataforma para analizar los resultados de tus experimentos, generar gráficas, consultar reportes y trabajar con resultados de forma sencilla.
