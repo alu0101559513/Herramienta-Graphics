@@ -27,7 +27,7 @@ Plataforma para analizar los resultados de tus experimentos, generar gráficas, 
 # Manual de usuario
 
 En el siguiente enlace podrás encontrar la documentación completa de uso de la aplicación:
-[Manual de usuario] (<https://alu0101559513.github.io/Graphics/>)
+[Manual de usuario] (<https://alu0101559513.github.io/Herramienta-Graphics/>)
 
 # Tecnologías utilizadas
 

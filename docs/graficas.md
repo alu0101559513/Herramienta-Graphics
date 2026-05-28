@@ -207,3 +207,7 @@ La opción de metadatos permite mostrar:
 - Nombre del archivo.
 
 <video src="/videos/graficas.mp4" controls muted loop playsinline class="docs-video"></video>
+
+### Comparación de dos algoritmos
+
+<video src="/videos/ejemplo_graficas.mp4" controls muted loop playsinline class="docs-video"></video>
