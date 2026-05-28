@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   title: 'Manual de usuario',
   description: 'Guía de uso de la aplicación',
-  base: '/Graphics/',
+  base: '/Herramienta-Graphics/',
 
   locales: {
     root: {
